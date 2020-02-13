@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Username: {{ request.user.username}}</h1>
+        <h1>Name: {{ request.user.display_name }}</h1>
+        <h1>Age: {{ request.user.age }}</h1>
+        <h1>Type: {{ user_type }}</h1>
+    </div>
+</body>
+</html>
